@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DELVRY03>
+  <IDOC BEGIN="1">
+    <EDI_DC40 SEGMENT="1">
+      <TABNAM>EDI_DC40</TABNAM>
+      <DIRECT>2</DIRECT>
+      <IDOCTYP>SHPMNT04</IDOCTYP>
+      <MESTYP>SHPMNT</MESTYP>
+      <MESCOD>WMS</MESCOD>
+      <SNDPOR>SAPPN1</SNDPOR>
+      <SNDPRT>LS</SNDPRT>
+      <SNDPFC />
+      <SNDPRN>WMS_W12</SNDPRN>
+      <RCVPOR>SAPPN1</RCVPOR>
+      <RCVPRT>LS</RCVPRT>
+      <RCVPRN>WMS_W12</RCVPRN>
+    </EDI_DC40>
+    <E1EDT20 SEGMENT="1">
+      <TKNUM />
+      <SHTYP>ZWMA</SHTYP>
+      <EXTI2>W12</EXTI2>
+      <E1EDT18 SEGMENT="1">
+        <QUALF>PID</QUALF>
+        <PARAM>TKNUM</PARAM>
+      </E1EDT18>
+      <E1ADRM4 SEGMENT="1">
+        <PARTNER_Q>OTP</PARTNER_Q>
+        <PARTNER_ID>ZWMI</PARTNER_ID>
+        <E1ADRE4 SEGMENT="1">
+          <EXTEND_Q>305</EXTEND_Q>
+          <EXTEND_D>ZWMI</EXTEND_D>
+        </E1ADRE4>
+      </E1ADRM4>
+      <E1ADRM4 SEGMENT="1">
+        <PARTNER_Q>SP</PARTNER_Q>
+        <PARTNER_ID>T0660</PARTNER_ID>
+      </E1ADRM4>
+      <E1EDL20 SEGMENT="1">
+        <VBELN>660|INT|00438</VBELN>
+        <VSTEL>W12</VSTEL>
+        <E1EDL18 SEGMENT="1">
+          <QUALF>PIC</QUALF>
+        </E1EDL18>
+        <E1EDL18 SEGMENT="1">
+          <QUALF>PGI</QUALF>
+        </E1EDL18>
+        <E1ADRM1 SEGMENT="1">
+          <PARTNER_Q>SP</PARTNER_Q>
+          <PARTNER_ID>T0660</PARTNER_ID>
+        </E1ADRM1>
+        <E1ADRM1 SEGMENT="1">
+          <PARTNER_Q>AG</PARTNER_Q>
+          <PARTNER_ID>0000000660</PARTNER_ID>
+        </E1ADRM1>
+        <E1EDT13 SEGMENT="1">
+          <QUALF>010</QUALF>
+          <NTANF>20220623</NTANF>
+          <NTANZ>000000</NTANZ>
+        </E1EDT13>
+        <E1EDT13 SEGMENT="1">
+          <QUALF>006</QUALF>
+          <ISDD>20220629</ISDD>
+          <ISDZ>000000</ISDZ>
+        </E1EDT13>
+        <E1EDL24 SEGMENT="1">
+          <POSNR>1</POSNR>
+          <MATNR>00000000000128251</MATNR>
+          <LFIMG>4.00</LFIMG>
+          <VRKME>PCE</VRKME>
+        </E1EDL24>
+      </E1EDL20>
+    </E1EDT20>
+  </IDOC>
+</DELVRY03>
